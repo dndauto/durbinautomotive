@@ -1,0 +1,27 @@
+header {
+  padding: 80px 0 40px;
+}
+
+  header {
+    padding: 80px 0 20px;
+	margin:0 0 0 0;
+	background-color:#800000;
+	border:1px solid #cccccc;
+  }
+
+@media (min-width: 800px) {
+  .building {
+	  float: left;
+	  margin 10px;
+  }
+}
+
+@media(max-width: 800px) {
+    .building {
+        display: none !important;
+    }
+}
+
+section {
+  padding: 150px 0;
+}
